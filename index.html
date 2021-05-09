@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="PSD-to-HTML">
+		<meta name="description" content="Personal site for media branding and freelancing">
+		<meta name="keywords" content="Tuhin shuvra, personal, Branding, media, freelancing, tumpa, shoumik">
+		<meta name="robots" content="index, follow">
+		
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+		<!-- fonts -->
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<title>Nipro</title>
+		<!-- <script src="https://kit.fontawesome.com/fc92a9f7f1.js" crossorigin="anonymous"></script> -->
+	</head>
+	<body>
+		<!-- header start -->
+		<header>
+			<div class="container">
+				<!-- nav start-->
+				<nav class="navbar navbar-expand-lg navbar-light bg-light c_nav">
+					<div class="container-fluid">
+						<a class="navbar-brand n_brand" href="index.html">
+							<div class="logo text-center">
+								<div class="l_top"><img class="topimg" src="images/nipro-rectangle.png" alt="nipro"></div>
+								<h3 class="l_text">Nipro Agency</h3>
+							</div>
+						</a>
+						<button class="navbar-toggler n_toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse menu" id="navbarS">
+							<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+								<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+							</ul>
+							<!-- search start -->
+							<div class="dropdown">
+								<a class="btn btn-search dropdown-toggle" href="#" role="button" id="dml" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="fas fa-search"></i>
+								</a>
+								<ul class="dropdown-menu d_search" aria-labelledby="dml">
+									<form>
+										<div class="row">
+											<div class="col-10">
+												<input type="text" class="form-control" placeholder="Search Here">
+											</div>
+											<div class="col-2">
+												<button type="submit"><i class="fas fa-search"></i></button>
+											</div>
+										</div>
+									</form>
+								</ul>
+							</div>
+							<!-- search end -->
+						</div>
+					</div>
+				</nav>
+				<!-- nav end-->
+				
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- slider start -->
+		<section class="hero">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 c_p_0">
+						<!-- slider start -->
+						<div id="cex1" class="carousel slide" data-bs-ride="carousel">
+							
+							<!-- innser start -->
+							<div class="carousel-inner">
+								<!-- item 1 start -->
+								<div class="carousel-item align-items-center active">
+									<img src="images/banner.jpg" class="d-block w-100 c_img" alt="nipro">
+									<div class="carousel-caption c_c_cap">
+										<h1>We Have Talented Team</h1>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+										<button>Learn More</button>
+									</div>
+								</div>
+								<!-- item 1 end -->
+								
+								
+							</div>
+							<!-- innser end -->
+							
+							<!-- control start -->
+							<button class="carousel-control-prev c_c_pre_btn" type="button" data-bs-target="#cex1" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon c_prev_icon" aria-hidden="true">Prev</span>
+							<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next c_c_next_btn" type="button" data-bs-target="#cex1" data-bs-slide="next">
+							<span class="carousel-control-next-icon c_next_icon" aria-hidden="true">Next</span>
+							<span class="visually-hidden">Next</span>
+							</button>
+							<!-- control end -->
+						</div>
+						<!-- slider end -->
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- slider end -->
+		
+		
+	</div>
+	<!-- JS Link -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		// $('[data-toggle="tooltip"]').tooltip();
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<section class="hero">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 c_p_0">
+						<!-- slider start -->
+						<div id="cex1" class="carousel slide" data-bs-ride="carousel">
+							
+							<!-- innser start -->
+							<div class="carousel-inner">
+								<!-- item 1 start -->
+								<div class="carousel-item align-items-center active">
+									<img src="images/banner.jpg" class="d-block w-100" alt="nipro">
+									<div class="carousel-caption c_c_cap">
+										<h1>We Have Talented Team</h1>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+										<button>Learn More</button>
+									</div>
+								</div>
+								<!-- item 1 end -->
+								
+								
+							</div>
+							<!-- innser end -->
+							
+							<!-- control start -->
+							<button class="carousel-control-prev c_c_pre_btn" type="button" data-bs-target="#cex1" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon c_prev_icon" aria-hidden="true">Prev</span>
+							<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next c_c_next_btn" type="button" data-bs-target="#cex1" data-bs-slide="next">
+							<span class="carousel-control-next-icon c_next_icon" aria-hidden="true">Next</span>
+							<span class="visually-hidden">Next</span>
+							</button>
+							<!-- control end -->
+						</div>
+						<!-- slider end -->
+						
+					</div>
+				</div>
+			</div>
+		</section>
